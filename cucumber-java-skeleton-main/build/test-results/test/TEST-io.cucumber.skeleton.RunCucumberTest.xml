@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.cucumber.skeleton.RunCucumberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-12T11:59:19" hostname="CI00166388" time="0.103">
+  <properties/>
+  <testcase name="Belly - eating 2 cookies" classname="io.cucumber.skeleton.RunCucumberTest" time="0.097"/>
+  <testcase name="Belly - eating 3 cookies" classname="io.cucumber.skeleton.RunCucumberTest" time="0.005"/>
+  <system-out><![CDATA[
+Scenario: eating 2 cookies         ?[90m# io/cucumber/skeleton/belly.feature:3?[0m
+  ?[32mGiven ?[0m?[32mI have a growling belly?[0m    ?[90m# io.cucumber.skeleton.StepDefinitions.I_have_a_growling_belly()?[0m
+  ?[32mWhen ?[0m?[32mI eat ?[0m?[32m?[1m2?[0m?[32m cookies?[0m             ?[90m# io.cucumber.skeleton.StepDefinitions.I_eat_cookies(int)?[0m
+  ?[32mThen ?[0m?[32mmy belly should still growl?[0m ?[90m# io.cucumber.skeleton.StepDefinitions.my_belly_should_still_growl()?[0m
+
+Scenario: eating 3 cookies             ?[90m# io/cucumber/skeleton/belly.feature:8?[0m
+  ?[32mGiven ?[0m?[32mI have a growling belly?[0m        ?[90m# io.cucumber.skeleton.StepDefinitions.I_have_a_growling_belly()?[0m
+  ?[32mWhen ?[0m?[32mI eat ?[0m?[32m?[1m3?[0m?[32m cookies?[0m                 ?[90m# io.cucumber.skeleton.StepDefinitions.I_eat_cookies(int)?[0m
+  ?[32mThen ?[0m?[32mmy belly should no longer growl?[0m ?[90m# io.cucumber.skeleton.StepDefinitions.my_belly_should_no_longer_growl()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
